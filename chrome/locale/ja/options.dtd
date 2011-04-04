@@ -1,0 +1,13 @@
+<!ENTITY UseProxy "プロキシを使用">
+<!--
+<!ENTITY SelectProxy "プロキシを選択">
+<!ENTITY NoProxy "プロキシを使用しない">
+<!ENTITY UseThisProxyForAllProtocols "両プロトコルに適用">
+-->
+<!ENTITY HTTPProxyHost "HTTP プロキシホスト">
+<!ENTITY HTTPProxyPort "HTTP プロキシポート">
+<!ENTITY SOCKSProxyHost "SOCKS プロキシホスト">
+<!ENTITY SOCKSProxyPort "SOCKS プロキシポート">
+<!ENTITY SOCKSRemoteDNS "SOCKS 遠隔 DNS">
+<!ENTITY SSLProxyHost "SSL プロキシホスト">
+<!ENTITY SSLProxyPort "SSL プロキシポート">

@@ -1,0 +1,13 @@
+<!ENTITY UseProxy "Use Proxy">
+<!--
+<!ENTITY SelectProxy "Select Proxy">
+<!ENTITY NoProxy "No Proxy">
+<!ENTITY UseThisProxyForAllProtocols "Use for both protocols">
+-->
+<!ENTITY HTTPProxyHost "HTTP Proxy Host">
+<!ENTITY HTTPProxyPort "HTTP Proxy Port">
+<!ENTITY SOCKSProxyHost "SOCKS Proxy Host">
+<!ENTITY SOCKSProxyPort "SOCKS Proxy Port">
+<!ENTITY SOCKSRemoteDNS "SOCKS Remote DNS">
+<!ENTITY SSLProxyHost "SSL Proxy Host">
+<!ENTITY SSLProxyPort "SSL Proxy Port">
