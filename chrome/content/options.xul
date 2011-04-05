@@ -3,7 +3,18 @@
 <!DOCTYPE window SYSTEM "chrome://proxymob/locale/options.dtd">
 
 <vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <setting id="extensions.proxymob.network.proxy.type" type="control" title="&UseProxy;">
+    <menulist id="selectproxy" oncommand="proxymob.set_proxy_type(this.value);">
+      <menupopup>
+        <menuitem id="0" value="0" label="No Proxy"/>
+        <menuitem id="1" value="1" label="Manual Input"/>
+        <menuitem id="4"  value="4" label="Auto Detect"/>
+      </menupopup>
+    </menulist>  
+  </setting>
+<!--
   <setting pref="network.proxy.type" type="boolint" on="1" off="2" title="&UseProxy;"/>
+-->
   <setting pref="network.proxy.http" type="string" title="&HTTPProxyHost;"/>
   <setting pref="extensions.proxymob.network.proxy.http_port" type="string" title="&HTTPProxyPort;"/> 
   <setting pref="network.proxy.socks" type="string" title="&SOCKSProxyHost;"/>

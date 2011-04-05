@@ -60,8 +60,13 @@ var proxymob = {
 		var prefVal = this.prefs.getCharPref(data);
        		this.prefs2.setIntPref(data, prefVal);
 
-	}
-	
+	},
+
+    set_proxy_type: function(value)
+    {
+       	this.prefs2.setIntPref("type", value);
+    }
+    
 }
 
 // Install load and unload handlers
